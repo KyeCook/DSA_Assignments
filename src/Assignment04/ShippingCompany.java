@@ -15,7 +15,7 @@ public class ShippingCompany {
 	
 	public ShippingCompany(String dbUser, String dbPassword) {
 		try {
-			conn = DriverManager.getConnection("jdbc:mysql://raptor2.aut.ac.nz:3306/testRestricted", dbUser, dbPassword);
+			conn = DriverManager.getConnection("jdbc:REMOVED_FOR_PRIVACY_REASONS", dbUser, dbPassword);
 		} catch (SQLException e) {
 			e.printStackTrace();
 		}
